@@ -1,0 +1,109 @@
+{
+  "title": "CollabDays Virtual Birmingham 2021",
+  "description": "Tony Pounder and MVP Brett Lonsdale (previously know for SPSUK, SPS Leicester) are joined by MVP Paul Hunt for the production of CollabDays Virtual Birmingham 2021",
+  "url": "/",
+  "logo": "/images/cdbirmingham2021.png",
+  "dateFormat": "HH:mm",
+  "discordInvite": "https://discord.gg/8Vk8AHmfpB",
+  "discordServerId": "776169869795131402",
+  "discordChannelId": "776169870600962080",
+  "refreshData": 1,
+  "googleAnalytics":"",
+
+  "alert": {
+    "type": "IMPORTANT",
+    "message": "The call for speakers is still open",
+    "link": "/"
+  },
+
+  "channels": [
+    {
+      "id": "channel1",
+      "title": "Channel 1",
+      "sessionUrl": "https://www.youtube.com/embed/qGIPoodveZM?autoplay=1",
+      "discord": {
+        "enabled": false,
+        "channelId": "0"
+      },
+      "allowFullScreen": true,
+      "startsAt": "2020-11-25T06:00:00Z"
+    },
+    {
+      "id": "channel2",
+      "title": "Channel 2",
+      "sessionUrl": "https://www.youtube.com/embed/qWiyz92GNb4?autoplay=1",
+      "discord": {
+        "enabled": false,
+        "channelId": "0"
+      },
+      "allowFullScreen": true,
+      "startsAt": "2020-11-25T06:00:00Z"
+    },
+    {
+      "id": "channel3",
+      "title": "Channel 3",
+      "sessionUrl": "https://www.youtube.com/embed/q74s76p9lqM?autoplay=1",
+      "discord": {
+        "enabled": false,
+        "channelId": "0"
+      },
+      "allowFullScreen": true,
+      "startsAt": "2020-11-25T06:00:00Z"
+    }
+  ],
+
+  "sponsors": [
+    {
+      "title": "ID Live",
+      "url": "https://www.id-live.com/",
+      "logo": "/images/sponsors/idlogo.jpg",
+      "level": "1.Platinum",
+      "frontPage": true
+    },
+    {
+      "title": "Lightning Tools",
+      "url": "http://www.lightningtools.com/",
+      "logo": "/images/sponsors/LTBolder.jpg",
+      "level": "1.Platinum",
+      "frontPage": true
+    },
+    {
+      "title": "365 Tribe",
+      "url": "https://www.365tribe.co.uk/",
+      "logo": "https://www.collabdays.org/2021-birmingham/wp-content/uploads/sites/15/2020/11/365Tribe_Logo.png",
+      "level": "2.Gold",
+      "frontPage": false
+    },
+    {
+      "title": "NLightning",
+      "url": "http://www.nlightningtech.com/",
+      "logo": "https://www.collabdays.org/2021-birmingham/wp-content/uploads/sites/15/2020/11/NLightningLogo.jpg",
+      "level": "2.Gold",
+      "frontPage": false
+    },
+    {
+      "title": "European Collaboration Summit",
+      "url": "https://www.collabsummit.eu",
+      "logo": "https://www.collabdays.org/2020-benelux-online/wp-content/uploads/sites/12/2019/10/collabsummit.png",
+      "level": "4.Community",
+      "frontPage": false
+    }
+  ],
+
+  "sessionize": {
+    "sessions": "https://sessionize.com/api/v2/3cif67a0/view/Sessions",
+    "speakers": "https://sessionize.com/api/v2/3cif67a0/view/Speakers",
+    "fields": {
+      "code": {
+        "id": "Code",
+        "prefix": "#CD"
+      },
+      "feedback": {
+        "id": "Feedback"
+      },
+      "discord": {
+        "id": "Discord"
+      }
+    }
+  }
+}
