@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@azure/functions": "^1.2.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
@@ -41,6 +42,7 @@
     "start": "npm-run-all --parallel start:*",
     "start:copy": "node scripts/copy-config.js",
     "start:react": "react-app-rewired start",
+    "start:api": "cd api && npm start",
     "build:react": "react-app-rewired build",
     "build": "npm run start:copy && npm-run-all build:*",
     "test": "reactapp-rewired test",
