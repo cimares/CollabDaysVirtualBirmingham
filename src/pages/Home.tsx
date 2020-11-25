@@ -4,6 +4,7 @@ import { useRecoilState } from 'recoil';
 import { ConfigState } from '../states/ConfigState';
 import { Sponsors } from '../components/Sponsors';
 import { LiveSession } from '../components/LiveSession';
+import { SpeakersOverview } from '../components/SpeakersOverview';
 
 export interface IHomeProps { }
 
@@ -22,9 +23,9 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
 
       <LiveSession channel={crntChannel} />
 
-
-
       <Sponsors />
+
+      <SpeakersOverview />
     </>
   );
 };

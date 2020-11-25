@@ -91,8 +91,8 @@
   ],
 
   "sessionize": {
-    "sessions": "https://sessionize.com/api/v2/3cif67a0/view/Sessions",
-    "speakers": "https://sessionize.com/api/v2/3cif67a0/view/Speakers",
+    "sessions": "https://sessionize.com/api/v2/og6dwcbr/view/Sessions",
+    "speakers": "https://sessionize.com/api/v2/og6dwcbr/view/Speakers",
     "fields": {
       "code": {
         "id": "Code",

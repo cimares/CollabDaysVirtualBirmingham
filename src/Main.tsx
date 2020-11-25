@@ -10,12 +10,14 @@ import { CodeOfConduct } from './pages/CodeOfConduct';
 import { Home } from './pages/Home';
 import { Sponsors } from './pages/Sponsors';
 import { Discord } from './pages/Discord';
+import { useSessionize } from './hooks/useSessionize';
 
 export interface IMainProps {}
 
 export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => {
     const [ config ] = useRecoilState(ConfigState);
     const history = React.useContext(HistoryContext);
+    useSessionize();
 
 
     return (
