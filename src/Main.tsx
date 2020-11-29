@@ -11,6 +11,8 @@ import { Home } from './pages/Home';
 import { Sponsors } from './pages/Sponsors';
 import { Discord } from './pages/Discord';
 import { useSessionize } from './hooks/useSessionize';
+import { Footer } from './components/Footer';
+import { ModalDialog } from './components/ModalDialog';
 
 export interface IMainProps {}
 
@@ -40,6 +42,10 @@ export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => 
           <Route path="/discord" component={Discord}  />
           <Route path="/channels/:channel" component={Home}  />
         </Router>
+
+        <Footer />
+
+        <ModalDialog />
             </div>
         </>
     )

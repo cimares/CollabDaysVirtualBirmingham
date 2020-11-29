@@ -1,6 +1,6 @@
 {
   "title": "CollabDays Virtual Birmingham 2021",
-  "description": "Tony Pounder and MVP Brett Lonsdale (previously know for SPSUK, SPS Leicester) are joined by MVP Paul Hunt for the production of CollabDays Virtual Birmingham 2021",
+  "description": "Tony Pounder and MVPs Brett Lonsdale and Paul Hunt would like to thank you for being part of CollabDays Virtual Birmingham 2021",
   "url": "/",
   "logo": "/images/cdbirmingham2021.png",
   "dateFormat": "HH:mm",
@@ -26,7 +26,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-25T06:00:00Z"
+      "startsAt": "2020-11-29T22:00:00Z"
     },
     {
       "id": "channel2",
@@ -37,7 +37,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-25T06:00:00Z"
+      "startsAt": "2020-11-29T22:00:00Z"
     },
     {
       "id": "channel3",
@@ -48,7 +48,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-25T06:00:00Z"
+      "startsAt": "2020-11-29T22:00:00Z"
     }
   ],
 

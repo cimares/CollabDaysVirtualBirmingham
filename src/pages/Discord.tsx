@@ -18,7 +18,7 @@ export const Discord: React.FunctionComponent<IDiscordProps> = (props: IDiscordP
     <div className="cod__container container items-center m-auto leading-normal max-w-4xl">
       <h1 className="text-display text-3xl my-4 text-center">How to join our CollabDays Virtual Birmingham Discord channel</h1>
  
-      <p className="my-2">Looking to join our CollabDays Discord server to catch up with the community?! We use Discord to create a virtual venue during the CollabDays Benelux conference.</p>
+      <p className="my-2">Looking to join our CollabDays Discord server to catch up with the community?! We decided to use Discord to create a virtual venue during the CollabDays Birmingham conference.</p>
           
       <p className="my-2">You can join the CollabDays Discord server with a registered account or temporary account (no registration required). The benefit of a registered account is using the Discord Desktop app and Mobile app. It's up to you!</p>
           
@@ -31,7 +31,7 @@ export const Discord: React.FunctionComponent<IDiscordProps> = (props: IDiscordP
         <li className="my-2">Click outside of the "Claim your account" dialog to close the dialog box, and enter the server or claim your account and register it.<br/><img className="my-2 mx-auto" src="/images/discord/discord3.png" alt="Dismiss login creation" width="50%" loading="lazy" /></li>
       </ol>
 
-      <p className="my-2">Link to our CollabDays Benelux Discord: <a href={discordUrl} title="Open the Discord invite">{discordUrl}</a></p>
+      <p className="my-2">Link to our CollabDays Birmingham Discord: <a href={discordUrl} title="Open the Discord invite">{discordUrl}</a></p>
     </div>
   );
 };

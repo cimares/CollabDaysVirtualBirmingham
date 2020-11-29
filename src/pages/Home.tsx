@@ -5,6 +5,8 @@ import { ConfigState } from '../states/ConfigState';
 import { Sponsors } from '../components/Sponsors';
 import { LiveSession } from '../components/LiveSession';
 import { SpeakersOverview } from '../components/SpeakersOverview';
+import { Schedule } from '../components/Schedule';
+import { ChannelOverview } from '../components/ChannelOverview';
 
 export interface IHomeProps { }
 
@@ -19,11 +21,14 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
 
   return (
     <>
-      <div>Home content to be added</div>
 
       <LiveSession channel={crntChannel} />
 
       <Sponsors />
+
+      <ChannelOverview channel={crntChannel} />
+
+      <Schedule />
 
       <SpeakersOverview />
     </>
