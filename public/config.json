@@ -12,8 +12,8 @@
 
   "alert": {
     "type": "IMPORTANT",
-    "message": "The call for speakers is still open",
-    "link": "/"
+    "message": "Please join the conversation in Discord!",
+    "link": "/discord"
   },
 
   "channels": [
@@ -26,7 +26,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-29T22:00:00Z"
+      "startsAt": "2021-01-28T08:00:00Z"
     },
     {
       "id": "channel2",
@@ -37,7 +37,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-29T22:00:00Z"
+      "startsAt": "2021-01-28T08:00:00Z"
     },
     {
       "id": "channel3",
@@ -48,7 +48,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2020-11-29T22:00:00Z"
+      "startsAt": "2021-01-28T08:00:00Z"
     }
   ],
 
