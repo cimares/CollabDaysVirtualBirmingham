@@ -8,6 +8,7 @@ import { AlertBar } from './components/AlertBar';
 import { Navigation } from './components/Navigation';
 import { CodeOfConduct } from './pages/CodeOfConduct';
 import { Home } from './pages/Home';
+import { OnDemand} from './pages/OnDemand';
 import { Sponsors } from './pages/Sponsors';
 import { Discord } from './pages/Discord';
 import { useSessionize } from './hooks/useSessionize';
@@ -41,6 +42,7 @@ export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => 
           <Route path="/code-of-conduct" component={CodeOfConduct}  />
           <Route path="/discord" component={Discord}  />
           <Route path="/channels/:channel" component={Home}  />
+          <Route path="/ondemand" component={OnDemand} />
         </Router>
 
         <Footer />

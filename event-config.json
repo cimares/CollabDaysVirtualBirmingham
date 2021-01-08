@@ -105,5 +105,20 @@
         "id": "Discord"
       }
     }
-  }
+  },
+  "onDemand":[
+    {
+      "id": "ODSession1",
+      "title": "OD Session 1",
+      "description":"Test session 1 description",
+      "sessionUrl": "https://www.youtube.com/embed/qGIPoodveZM?autoplay=1"
+    },
+    {
+      "id": "ODSession2",
+      "title": "OD Session 2",
+      "description":"Test session 2 description",
+      "sessionUrl": "https://www.youtube.com/embed/q74s76p9lqM?autoplay=1"
+    }
+
+  ]
 }

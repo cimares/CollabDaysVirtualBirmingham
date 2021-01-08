@@ -2,6 +2,7 @@ import { Alert } from "./Alert";
 import { Channel } from "./Channel";
 import { Sessionize } from "./Sessionize"
 import { Sponsor } from "./Sponsor";
+import { OnDemandInfo} from "./OnDemandInfo";
 
 export interface EventConfig {
   title: string;
@@ -20,6 +21,8 @@ export interface EventConfig {
   sponsors: Sponsor[];
   
   sessionize: Sessionize;
+
+  onDemand: OnDemandInfo[];
 
   alert?: Alert;
 }
