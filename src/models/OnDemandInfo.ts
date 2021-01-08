@@ -3,4 +3,10 @@ export interface OnDemandInfo {
     title: string;
     description: string;
     sessionUrl: string;
+    speakers: OnDemandSpeakerInfo[];
+  }
+
+  export interface OnDemandSpeakerInfo {
+    id: string;
+    name: string;
   }

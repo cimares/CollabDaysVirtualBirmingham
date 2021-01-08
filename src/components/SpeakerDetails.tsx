@@ -48,7 +48,7 @@ export const SpeakerDetails: React.FunctionComponent<ISpeakerDetailsProps> = (pr
   
   return (
     <button onClick={showSpeakerDialog} className="speakers__overview__details rounded-md w-full md:w-1/5 p-8 text-center">
-      <img className="w-1/3 mx-auto mb-4 rounded-full border-4 border-white" src={speaker.profilePicture} alt={speaker.fullName} />
+      <img className="w-full mx-auto mb-4 rounded-full border-4 border-white" src={speaker.profilePicture} alt={speaker.fullName} />
       <h3 className="text-xl font-heading mb-2">{speaker.fullName}</h3>
       <span className="text-gray-700">{speaker.tagLine}</span>
     </button>
