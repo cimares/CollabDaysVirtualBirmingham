@@ -26,7 +26,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-28T08:00:00Z"
+      "startsAt": "2021-01-09T08:00:00Z"
     },
     {
       "id": "channel2",
@@ -37,7 +37,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-28T08:00:00Z"
+      "startsAt": "2021-01-09T08:00:00Z"
     },
     {
       "id": "channel3",
@@ -48,7 +48,7 @@
         "channelId": "0"
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-28T08:00:00Z"
+      "startsAt": "2021-01-09T08:00:00Z"
     }
   ],
 
@@ -56,7 +56,7 @@
     {
       "title": "ID Live",
       "url": "https://www.id-live.com/",
-      "logo": "/images/sponsors/idlogo.jpg",
+      "logo": "/images/sponsors/IDLOGO.jpg",
       "level": "1.Platinum",
       "frontPage": true
     },
@@ -108,9 +108,11 @@
   },
   "onDemand":[
     {
+      "startsAt": "2021-01-09T08:00:00Z",
+      "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession1",
-      "title": "OD Session 1",
-      "description":"Test session 1 description",
+      "title": "Getting User Adoption: Lessons from Neurology, Psychology, Marketing, and More",
+      "description":"Easier, more compelling, and more interactive technology isn’t enough to get your users to use it. You can’t simply build it and expect that they will come. In this session, you’ll learn from neurology and psychology what you can do to encourage people to take the leap into your roll out. We’ll fly over cornfields in Iowa to learn how some farmers took advantage of advances in farming – and some didn’t. \n\nWe’ll dissect our two different brains and realize that our rational consciousness isn’t in as much control as we’d like to believe. We’ll learn from marketing to make our specific calls to action. We’ll explore the impacts of trust on economies and continents. After this session, you’ll have a whole new superhero utility belt of tools for making adoption work in your organization – whatever technology you’re trying to deploy.​",
       "sessionUrl": "https://www.youtube.com/embed/qGIPoodveZM?autoplay=1",
       "speakers": [
         {
@@ -124,9 +126,25 @@
       ]
     },
     {
+      "startsAt": "2021-01-01T08:00:00Z",
+      "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession2",
-      "title": "OD Session 2",
-      "description":"Test session 2 description",
+      "title": "The Maturity Model for Microsoft 365",
+      "description":"A decade after the Maturity Model for SharePoint went public, a crack community team has been hard at work developing a new maturity model for businesses, built around the capabilities of the full MS 365 stack.\n\nThis session will cover the What, How and Why of the Maturity Model for Microsoft 365, with a focus on what the levels of business maturity look like for each competency.\n\nLearn how to assess, direct and improve business operations across a range of competencies including Communication, Collaboration, Staff and Training and more. Gain insights into plugging in M365 technology against the business needs at a strategic and granular level.\n\nThe model enables consultants, technology owners and business managers to develop complementary business and technology roadmaps; developing the organisation and their own careers.",
+      "sessionUrl": "https://www.youtube.com/embed/q74s76p9lqM?autoplay=1",
+      "speakers": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "name": "Sophia Test"
+        }
+      ]
+    },
+    {
+      "startsAt": "2021-01-08T08:00:00Z",
+      "endsAt": "2021-01-09T08:00:00Z",
+      "id": "ODSession3",
+      "title": "Deploy Microsoft Learning Pathways to get the best use out of Microsoft 365",
+      "description":"Are your employees utilizing Microsoft 365 to the fullest? Do they have the training and support needed to be successful in their job?\nMicrosoft 365 Learning Pathways is a Microsoft-built solution you can deploy to your tenant, today, for free. It creates an adoption and training center that showcases dynamic, always up-to-date content from Microsoft to support training and adoption for your end users. You can also customize it to fit the exact needs of your organization by incorporating your own training content and highlighting your events.\nCome to the session and I will show you how you can deploy and get the best use out of the content from Microsoft 365 Learning Pathways.",
       "sessionUrl": "https://www.youtube.com/embed/q74s76p9lqM?autoplay=1",
       "speakers": [
         {
