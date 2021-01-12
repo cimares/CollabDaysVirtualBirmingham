@@ -13,7 +13,8 @@
   "alert": {
     "type": "IMPORTANT",
     "message": "Please join the conversation in Discord!",
-    "link": "/discord"
+    "link": "/discord",
+    "show": true
   },
 
   "channels": [
@@ -84,7 +85,7 @@
     {
       "title": "Trustmarque",
       "url": "https://www.trustmarque.com",
-      "logo": "/images/sponsors/tmlogo-02.jpg",
+      "logo": "/images/sponsors/tmlogo-02.png",
       "level": "1.Platinum",
       "frontPage": true
     },

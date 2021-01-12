@@ -7,7 +7,7 @@ export interface IAlertBarProps {}
 export const AlertBar: React.FunctionComponent<IAlertBarProps> = (props: IAlertBarProps) => {
   const [ config ] = useRecoilState(ConfigState);
   
-  if (config && config.alert) {
+  if (config && config.alert.show) {
     return (
       <section className="bg-gray-100 text-gray-900 py-4 px-4" role="alert">
         <div className="container items-center flex m-auto leading-none">

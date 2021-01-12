@@ -24,6 +24,6 @@ export interface EventConfig {
 
   onDemand: OnDemandInfo[];
 
-  alert?: Alert;
+  alert: Alert;
 }
 
