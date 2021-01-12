@@ -15,27 +15,33 @@ export const OnDemandSession: React.FunctionComponent<IOnDemandListProps> = (pro
     const sessionDate = new Date(OnDemandSession.startsAt);
     const sessionEndDate = new Date(OnDemandSession.endsAt);
     let sessionAvail = true;
-    if (differenceInDays(now,sessionDate) <= 0){
+    if (differenceInDays(now, sessionDate) <= 0) {
         sessionAvail = false;
     }
-    if (differenceInDays(now,sessionEndDate) >= 0){
+    if (differenceInDays(now, sessionEndDate) >= 0) {
         sessionAvail = false;
     }
 
     return (
         <>
-            <div className="container items-center m-auto leading-normal max-w-3xl bg-gray-300">
+            <div className="container items-center m-auto leading-normal max-w-3xl bg-gray-200">
                 {sessionAvail === false &&
-                    <div>Session not currently available</div>
+                    <div className="container items-center flex p-2 leading-none">
+                        <span className="flex rounded-full uppercase px-2 py-1 text-xs font-bold mr-3 bg-red-700 text-white ">
+                            Session not currently available</span>
+                    </div>
                 }
 
                 {sessionAvail === true &&
-                    <div><a href={OnDemandSession.sessionUrl} target='_blank'>Click here to view this session</a></div>
+                    <div className="container items-center flex p-2 leading-none">
+                        <span className="flex rounded-full uppercase px-2 py-1 text-xs font-bold mr-3 bg-green-500 hover:bg-green-700">
+                        <a style={{color:"white"}} href={OnDemandSession.sessionUrl} target='_blank' rel="noreferrer">
+                            Click here to view this session</a></span></div>
                 }
-                    <p className="text-2xl font-bold mb-4 mr-5">{OnDemandSession.title}</p>
-                    <p className="mb-2">{OnDemandSession.description}</p>
+                <p className="text-2xl font-bold mb-4 mr-5">{OnDemandSession.title}</p>
+                <p className="mb-2">{OnDemandSession.description}</p>
                 <div>
-                <OnDemandSpeakers speakers={OnDemandSession.speakers} />
+                    <OnDemandSpeakers speakers={OnDemandSession.speakers} />
                 </div>
             </div>
             <br />

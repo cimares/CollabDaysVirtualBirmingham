@@ -68,23 +68,44 @@
       "frontPage": true
     },
     {
+      "title": "Veeam",
+      "url": "https://www.veeam.com/",
+      "logo": "/images/sponsors/veeam_green_logo-1.png",
+      "level": "1.Platinum",
+      "frontPage": true
+    },
+    {
+      "title": "NiCE",
+      "url": "https://www.nice.de/",
+      "logo": "/images/sponsors/NiCELogo.jpg",
+      "level": "1.Platinum",
+      "frontPage": true
+    },
+    {
+      "title": "Martello",
+      "url": "http://www.martellotech.com/",
+      "logo": "/images/sponsors/350x350-MTLO.png",
+      "level": "2.Gold",
+      "frontPage": false
+    },
+    {
       "title": "365 Tribe",
       "url": "https://www.365tribe.co.uk/",
-      "logo": "https://www.collabdays.org/2021-birmingham/wp-content/uploads/sites/15/2020/11/365Tribe_Logo.png",
+      "logo": "/images/sponsors/365Tribe_Logo.png",
       "level": "2.Gold",
       "frontPage": false
     },
     {
       "title": "NLightning",
       "url": "http://www.nlightningtech.com/",
-      "logo": "https://www.collabdays.org/2021-birmingham/wp-content/uploads/sites/15/2020/11/NLightningLogo.jpg",
+      "logo": "/images/sponsors/NLightningLogo.jpg",
       "level": "2.Gold",
       "frontPage": false
     },
     {
       "title": "European Collaboration Summit",
       "url": "https://www.collabsummit.eu",
-      "logo": "https://www.collabdays.org/2020-benelux-online/wp-content/uploads/sites/12/2019/10/collabsummit.png",
+      "logo": "/images/sponsors/collabsummit.png",
       "level": "4.Community",
       "frontPage": false
     }

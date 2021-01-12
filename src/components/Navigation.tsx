@@ -36,8 +36,9 @@ export const Navigation: React.FunctionComponent<INavigationProps> = (props: INa
         </li>
         <li><a href="/" className="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Watch</a></li>
         <li><a href="/#schedule" className="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Schedule</a></li>
+        {config.onDemand &&
         <li><a href="ondemand" className="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">On-Demand</a></li> 
-    
+        }
         <li><a href="/#speakers" className="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline">Speakers</a></li>
         <li className="px-6 hidden md:block">
           <a href={config.url || "/"} title={config.title}>
