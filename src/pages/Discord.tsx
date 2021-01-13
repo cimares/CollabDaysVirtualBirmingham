@@ -20,7 +20,7 @@ export const Discord: React.FunctionComponent<IDiscordProps> = (props: IDiscordP
  
       <p className="my-2">Looking to join our CollabDays Discord server to catch up with the community?! We decided to use Discord to create a virtual venue during the CollabDays Birmingham conference.</p>
           
-      <p className="my-2">You can join the CollabDays Discord server with a registered account or temporary account (no registration required). The benefit of a registered account is using the Discord Desktop app and Mobile app. It's up to you!</p>
+      <p className="my-2">You can join the CollabDays Discord server with a registered account or temporary account (no registration required). The benefit of a registered account is using the Discord Desktop app and Mobile app. It's up to you, but the app presents a much better experience!</p>
           
       <p className="my-2">In short: After opening it on your web browser, and you will get asked to provide a username, agree to the Terms of Service... and that's it. The in-browser app will open with a pop-up asking for an email and password in order to save everything, but you can just click it away and start doing mostly everything like a regular registered user.</p>
           

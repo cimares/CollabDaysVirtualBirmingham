@@ -8,7 +8,7 @@
   "discordServerId": "776169869795131402",
   "discordChannelId": "776169870600962080",
   "refreshData": 1,
-  "googleAnalytics":"",
+  "googleAnalytics":"UA-62275775-3",
 
   "alert": {
     "type": "IMPORTANT",
@@ -127,8 +127,8 @@
   ],
 
   "sessionize": {
-    "sessions": "https://sessionize.com/api/v2/og6dwcbr/view/Sessions",
-    "speakers": "https://sessionize.com/api/v2/og6dwcbr/view/Speakers",
+    "sessions": "https://sessionize.com/api/v2/3cif67a0/view/Sessions",
+    "speakers": "https://sessionize.com/api/v2/3cif67a0/view/Speakers",
     "fields": {
       "code": {
         "id": "Code",

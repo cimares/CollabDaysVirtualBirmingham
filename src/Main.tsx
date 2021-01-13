@@ -22,6 +22,27 @@ export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => 
     const history = React.useContext(HistoryContext);
     useSessionize();
 
+    const [ gInitialized, setGoogleInit ] = React.useState(false);
+
+    const loadGoogle = async () => {
+      if (!gInitialized && config && config.googleAnalytics && history) {
+        const ReactGA: any = await import(/* webpackChunkName: 'react-ga' */ 'react-ga');
+      
+        ReactGA.initialize(config.googleAnalytics);
+        ReactGA.pageview(window.location.pathname);
+        setGoogleInit(true);
+        
+        (history as any).listen((location: any, action: any) => {
+          ReactGA.set({ page: location.pathname });
+          ReactGA.pageview(location.pathname);
+        });
+      }
+    };
+  
+    React.useEffect(() => {
+      loadGoogle();
+      // eslint-disable-next-line
+    }, ['', config]);
 
     return (
         <>
@@ -31,10 +52,10 @@ export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => 
       </Helmet>
 
         <div className='w-full'>
-
+ <AlertBar/>
         <Navigation/>
 
-        <AlertBar/>
+       
 
         <Router history={history as any}>
           <Route exact path="/" component={Home}  />
