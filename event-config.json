@@ -21,35 +21,35 @@
     {
       "id": "channel1",
       "title": "Channel 1",
-      "sessionUrl": "https://www.youtube.com/embed/qGIPoodveZM?autoplay=1",
+      "sessionUrl": "https://www.youtube.com/embed/1ekdjAhQw7k?autoplay=1",
       "discord": {
         "enabled": false,
-        "channelId": "0"
+        "channelId": ""
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-09T08:00:00Z"
+      "startsAt": "2021-01-17T08:00:00Z"
     },
     {
       "id": "channel2",
       "title": "Channel 2",
-      "sessionUrl": "https://www.youtube.com/embed/sSr2DsZfKSw?autoplay=1",
+      "sessionUrl": "https://www.youtube.com/embed/m_DbaUlgo7g?autoplay=1",
       "discord": {
         "enabled": false,
-        "channelId": "0"
+        "channelId": ""
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-09T08:00:00Z"
+      "startsAt": "2021-01-17T08:00:00Z"
     },
     {
       "id": "channel3",
       "title": "Channel 3",
-      "sessionUrl": "https://www.youtube.com/embed/q74s76p9lqM?autoplay=1",
+      "sessionUrl": "https://www.youtube.com/embed/8o9NVFxVw4c?autoplay=1",
       "discord": {
         "enabled": false,
-        "channelId": "0"
+        "channelId": ""
       },
       "allowFullScreen": true,
-      "startsAt": "2021-01-09T08:00:00Z"
+      "startsAt": "2021-01-17T08:00:00Z"
     }
   ],
 
@@ -85,7 +85,7 @@
     {
       "title": "Trustmarque",
       "url": "https://www.trustmarque.com",
-      "logo": "/images/sponsors/tmlogo-02.png",
+      "logo": "/images/sponsors/TM-Capita-Logo.jpg",
       "level": "1.Platinum",
       "frontPage": true
     },
@@ -127,8 +127,8 @@
   ],
 
   "sessionize": {
-    "sessions": "https://sessionize.com/api/v2/3cif67a0/view/Sessions",
-    "speakers": "https://sessionize.com/api/v2/3cif67a0/view/Speakers",
+    "sessions": "https://sessionize.com/api/v2/og6dwcbr/view/Sessions",
+    "speakers": "https://sessionize.com/api/v2/og6dwcbr/view/Speakers",
     "fields": {
       "code": {
         "id": "Code",
@@ -144,7 +144,7 @@
   },
   "onDemand":[
     {
-      "startsAt": "2021-01-09T08:00:00Z",
+      "startsAt": "2021-01-17T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession1",
       "title": "Getting User Adoption: Lessons from Neurology, Psychology, Marketing, and More",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "startsAt": "2021-01-01T08:00:00Z",
+      "startsAt": "2021-01-17T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession2",
       "title": "The Maturity Model for Microsoft 365",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "startsAt": "2021-01-08T08:00:00Z",
+      "startsAt": "2021-01-17T08:00:00Z",
       "endsAt": "2021-01-09T08:00:00Z",
       "id": "ODSession3",
       "title": "Deploy Microsoft Learning Pathways to get the best use out of Microsoft 365",

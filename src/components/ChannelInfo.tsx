@@ -37,13 +37,15 @@ export const ChannelInfo: React.FunctionComponent<IChannelInfoProps> = (props: I
       const now = new Date();
       for (const session of room.sessions) {
         const startsAt = new Date(session.startsAt);
-        // const endsAt = new Date(session.endsAt);
+        const endsAt = new Date(session.endsAt);
+        const sessLength = differenceInMinutes(startsAt,endsAt);
 
         // + is future, - is past 
         const startDiff = differenceInMinutes(startsAt, now);
+        //console.log(session.title + " - " + session.startsAt + " - " + session.endsAt + " Length(" + sessLength + ") " + " - " + session.isPlenumSession + " - " + startDiff);
         // const endDiff = differenceInMinutes(endsAt, now);
 
-        if (!current && (startDiff < 15 && startDiff >= -45)) {
+        if (!current && (startDiff < 10 && startDiff >= sessLength)) {
           current = Object.assign({}, session);
           if (current.id !== crntSession?.id) {
             setCrntSession(current);

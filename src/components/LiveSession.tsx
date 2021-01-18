@@ -26,7 +26,7 @@ export const LiveSession: React.FunctionComponent<ILiveSessionProps> = (props: I
 
   const now = new Date();
   const channelDate = new Date(crntChannel.startsAt);
-  if (differenceInDays(now, channelDate) >= 0) {
+   if (differenceInDays(now, channelDate) >= 0) {
     return (
       <section className="container flex flex-wrap md:flex-no-wrap mx-auto mt-4">
         <Channel key={crntChannel.title} info={crntChannel} />
