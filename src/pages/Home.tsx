@@ -22,7 +22,9 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
   return (
     <>
 
+      {config?.popOutVideo === false &&
       <LiveSession channel={crntChannel} />
+      }
 
       <Sponsors />
 

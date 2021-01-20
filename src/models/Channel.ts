@@ -4,6 +4,7 @@ export interface Channel {
   id: string;
   title: string;
   sessionUrl: string;
+  popOutUrl: string;
   startsAt: string;
   discord: Discord;
 

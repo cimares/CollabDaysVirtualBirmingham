@@ -15,6 +15,7 @@ export interface EventConfig {
   discordChannelId?: string;
   googleAnalytics: string;
   refreshData: number;
+  popOutVideo: boolean;
   
   channels: Channel[];
 
