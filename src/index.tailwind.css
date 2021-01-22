@@ -78,6 +78,10 @@ svg.icon {
   height: 300px;
 }
 
+.channel__container_popout {
+  height: 100px;
+}
+
 /* Sponsor */
 .sponsor {
   filter: grayscale(100%);

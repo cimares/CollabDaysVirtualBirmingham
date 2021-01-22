@@ -4,6 +4,7 @@ import { useRecoilState } from 'recoil';
 import { ConfigState } from '../states/ConfigState';
 import { Sponsors } from '../components/Sponsors';
 import { LiveSession } from '../components/LiveSession';
+import { LiveSessionPopout } from '../components/LiveSessionPopout';
 import { SpeakersOverview } from '../components/SpeakersOverview';
 import { Schedule } from '../components/Schedule';
 import { ChannelOverview } from '../components/ChannelOverview';
@@ -24,6 +25,10 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
 
       {config?.popOutVideo === false &&
       <LiveSession channel={crntChannel} />
+      }
+
+      {config?.popOutVideo === true &&
+      <LiveSessionPopout channel={crntChannel} />
       }
 
       <Sponsors />

@@ -16,7 +16,7 @@ export const SpeakersOverview: React.FunctionComponent<ISpeakersOverviewProps> =
     <section className="speakers__overview container items-center m-auto leading-none mt-8" role="list">
       <div className="w-full px-5 py-8 mx-auto">
         <div className="flex flex-col text-center w-full">
-          <h2 id="speakers" className="text-xs text-cadetblue-700 tracking-widest font-medium title-font mb-1">Speakers</h2>
+          <h2 id="speakers" className="text-sm text-cadetblue-700 tracking-widest font-medium title-font mb-1 p-1 bg-gray-200">Speakers</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-cadetblue-900">Thanks to our amazing speakers</h1>
         </div>
       </div>

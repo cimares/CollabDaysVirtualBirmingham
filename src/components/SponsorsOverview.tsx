@@ -31,13 +31,14 @@ export const SponsorsOverview: React.FunctionComponent<ISponsorsOverviewProps> =
       </div>
     );
   }
+  
 
   return (
     <section className="container mx-auto leading-none mt-8 mb-16" role="list">
       {
         Object.keys(crntHeader).map(level => (
           <>
-            <h2 key={`title-${level}`} className="text-display text-3xl text-center my-8">{level}</h2>
+            <h2 key={`title-${level}`} className="text-display text-3xl text-center my-8 p-2 bg-gray-200">{level}</h2>
             <div key={`content-${level}`} className="grid grid-cols-3 gap-4">
               {
                 crntHeader[level] && crntHeader[level]
