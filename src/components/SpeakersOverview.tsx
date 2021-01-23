@@ -9,7 +9,7 @@ export const SpeakersOverview: React.FunctionComponent<ISpeakersOverviewProps> =
   const [ allSpeakers ] = useRecoilState(SpeakersState);
 
   if (!allSpeakers || allSpeakers.length <= 0) {
-    return <div>No speaker info yet</div>;
+    return <div>Fetching speaker info</div>;
   }
 
   return (
