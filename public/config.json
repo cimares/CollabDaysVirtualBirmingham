@@ -163,7 +163,7 @@
     {
       "startsAt": "2021-01-28T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
-      "id": "ODSession3",
+      "id": "ODSession2",
       "title": "Deploy Microsoft Learning Pathways to get the best use out of Microsoft 365",
       "description":"Are your employees utilizing Microsoft 365 to the fullest? Do they have the training and support needed to be successful in their job?\nMicrosoft 365 Learning Pathways is a Microsoft-built solution you can deploy to your tenant, today, for free. It creates an adoption and training center that showcases dynamic, always up-to-date content from Microsoft to support training and adoption for your end users. You can also customize it to fit the exact needs of your organization by incorporating your own training content and highlighting your events.\nCome to the session and I will show you how you can deploy and get the best use out of the content from Microsoft 365 Learning Pathways.",
       "sessionUrl": "https://www.youtube.com/embed/diKW-hcZ8mw?autoplay=1",
@@ -171,6 +171,24 @@
         {
           "id": "04c4d4cd-9b87-402f-8db0-563d805694ae",
           "name": "Asif Rehmani"
+        }
+      ]
+    },
+    {
+      "startsAt": "2021-01-28T08:00:00Z",
+      "endsAt": "2021-02-20T08:00:00Z",
+      "id": "ODSession3",
+      "title": "Inspiring the Next Generation: Teaching TechGirlz",
+      "description":"David and Sarah Patrick will discuss their adventures in teaching young ladies a variety of computer related technologies. Through a program called TechGirlz, David and Sarah have been running workshops designed to inspire the next generation of young women to get and stay interested in STEM, to help bridge the gender gap that exists in these fields today. During the talk, David and Sarah will show off how they were able to incorporate into the TechGirlz workshops the latest Microsoft technologies like Office 365, Kodu, Visual Studio Code, Power Apps and Microsoft Teams, so that the ladies would not only be learning technology, but gaining current, relevant, and valuable skills.",
+      "sessionUrl": "https://www.youtube.com/embed/w7x-FeeXmaQ?autoplay=1",
+      "speakers": [
+        {
+          "id": "1fb25ae7-3226-4bf5-9c79-aa600340a2d1",
+          "name": "David Patrick"
+        },
+        {
+          "id": "3e97eae7-d5ac-4bd4-a53b-2e4144452a32",
+          "name": "Sarah Patrick"
         }
       ]
     }
