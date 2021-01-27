@@ -1,4 +1,4 @@
-import { differenceInDays, differenceInMinutes } from 'date-fns';
+import { differenceInMinutes } from 'date-fns';
 import * as React from 'react';
 import { useRecoilState } from 'recoil';
 import { Channel as CrntChannel } from '../models/Channel'
