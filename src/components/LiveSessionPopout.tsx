@@ -1,4 +1,4 @@
-import { differenceInDays } from 'date-fns';
+import { differenceInDays, differenceInMinutes } from 'date-fns';
 import * as React from 'react';
 import { useRecoilState } from 'recoil';
 import { Channel as CrntChannel } from '../models/Channel'
@@ -25,7 +25,7 @@ export const LiveSessionPopout: React.FunctionComponent<ILiveSessionPopoutProps>
 
   const now = new Date();
   const channelDate = new Date(crntChannel.startsAt);
-   if (differenceInDays(now, channelDate) >= 0) {
+   if (differenceInMinutes(now,channelDate) >= 0) {
     return (<></>);
   } else {
     return (
