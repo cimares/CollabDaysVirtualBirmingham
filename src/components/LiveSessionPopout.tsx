@@ -8,9 +8,6 @@ export interface ILiveSessionPopoutProps {
 }
 
 export const LiveSessionPopout: React.FunctionComponent<ILiveSessionPopoutProps> = (props: ILiveSessionPopoutProps) => {
-  const [ config ] = useRecoilState(ConfigState);
-  const { channel } = props;
-
 
     return (
       <section className="channel__container_popout container flex justify-center items-center mx-auto mt-4 bg-gray-200 rounded-md">
