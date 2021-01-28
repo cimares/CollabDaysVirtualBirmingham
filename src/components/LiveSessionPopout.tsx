@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { useRecoilState } from 'recoil';
 import { Channel as CrntChannel } from '../models/Channel'
-import { ConfigState } from '../states/ConfigState';
+
 
 export interface ILiveSessionPopoutProps {
   channel: CrntChannel | null;
