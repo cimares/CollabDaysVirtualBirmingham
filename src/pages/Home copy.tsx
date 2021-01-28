@@ -5,7 +5,9 @@ import { ConfigState } from '../states/ConfigState';
 import { Sponsors } from '../components/Sponsors';
 import { LiveSession } from '../components/LiveSession';
 import { LiveSessionPopout } from '../components/LiveSessionPopout';
-
+import { SpeakersOverview } from '../components/SpeakersOverview';
+import { Schedule } from '../components/Schedule';
+import { ChannelOverview } from '../components/ChannelOverview';
 
 export interface IHomeProps { }
 
@@ -31,6 +33,11 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
 
       <Sponsors />
 
+      <ChannelOverview channel={crntChannel} />
+
+      <Schedule />
+
+      <SpeakersOverview />
     </>
   );
 };
