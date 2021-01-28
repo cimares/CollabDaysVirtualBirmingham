@@ -5,7 +5,7 @@ import { ConfigState } from '../states/ConfigState';
 import { Sponsors } from '../components/Sponsors';
 import { LiveSession } from '../components/LiveSession';
 import { LiveSessionPopout } from '../components/LiveSessionPopout';
-
+import { SpeakersOverview } from '../components/SpeakersOverview';
 
 export interface IHomeProps { }
 
@@ -30,6 +30,8 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
       }
 
       <Sponsors />
+
+      <SpeakersOverview />
 
     </>
   );
