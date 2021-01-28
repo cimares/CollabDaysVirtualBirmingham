@@ -25,7 +25,7 @@ export const LiveSessionPopout: React.FunctionComponent<ILiveSessionPopoutProps>
 
   const now = new Date();
   const channelDate = new Date(crntChannel.startsAt);
-   if (differenceInMinutes(now,channelDate) >= 0) {
+   if (differenceInMinutes(now,channelDate) >= -10) {
     return (<></>);
   } else {
     return (
