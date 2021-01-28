@@ -22,7 +22,7 @@
       "id": "channel1",
       "title": "Channel 1",
       "sessionUrl": "https://www.youtube.com/embed/1ekdjAhQw7k?autoplay=1",
-      "popOutUrl" : "https://youtu.be/1ekdjAhQw7k",
+      "popOutUrl" : "https://youtu.be/ZZ3Se7pdHEY",
       "discord": {
         "enabled": false,
         "channelId": ""
@@ -34,7 +34,7 @@
       "id": "channel2",
       "title": "Channel 2",
       "sessionUrl": "https://www.youtube.com/embed/m_DbaUlgo7g?autoplay=1",
-      "popOutUrl" : "https://youtu.be/m_DbaUlgo7g",
+      "popOutUrl" : "https://youtu.be/YnQehzFmauc",
       "discord": {
         "enabled": false,
         "channelId": ""
@@ -46,7 +46,7 @@
       "id": "channel3",
       "title": "Channel 3",
       "sessionUrl": "https://www.youtube.com/embed/8o9NVFxVw4c?autoplay=1",
-      "popOutUrl" : "https://youtu.be/8o9NVFxVw4c",
+      "popOutUrl" : "https://youtu.be/r6u6w4zjNzs",
       "discord": {
         "enabled": false,
         "channelId": ""
