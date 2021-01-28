@@ -28,8 +28,8 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
   const dataReq = await fetch(apiUrl);
   if (dataReq && dataReq.ok) {
     const data = await dataReq.json();
-    // Cache for two minutes
-    fncCache.set(cacheKey, data, 120);
+    // Cache for five minutes
+    fncCache.set(cacheKey, data, 300);
     context.res = {
       body: data
     };
