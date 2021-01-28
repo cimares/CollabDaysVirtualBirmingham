@@ -14,7 +14,7 @@
     "type": "IMPORTANT",
     "message": "We're having some issues fetching the schedule on first page load of the website. Just wait on the page and it will appear.!",
     "link": "/discord",
-    "show": true
+    "show": false
   },
 
   "channels": [

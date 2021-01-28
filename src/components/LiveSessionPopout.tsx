@@ -11,16 +11,6 @@ export const LiveSessionPopout: React.FunctionComponent<ILiveSessionPopoutProps>
   const [ config ] = useRecoilState(ConfigState);
   const { channel } = props;
 
-  let crntChannel = null;
-  if (channel) {
-    crntChannel = channel;
-  } else {
-    if (config && config.channels[0]) {
-      crntChannel = config.channels[0];
-    } else {
-      return null;
-    }
-  }
 
     return (
       <section className="channel__container_popout container flex justify-center items-center mx-auto mt-4 bg-gray-200 rounded-md">
