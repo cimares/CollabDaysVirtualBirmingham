@@ -21,6 +21,7 @@ export const OnDemandSession: React.FunctionComponent<IOnDemandListProps> = (pro
     if (differenceInDays(now, sessionEndDate) >= 0) {
         sessionAvail = false;
     }
+    sessionAvail = true;
 
     return (
         <>
