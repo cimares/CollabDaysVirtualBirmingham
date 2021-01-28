@@ -15,7 +15,7 @@ export const Sponsors: React.FunctionComponent<ISponsorsProps> = (props: ISponso
     <>
       <section className="speakers__overview container items-center m-auto leading-none mt-8" role="list">
 
-        <div className="flex flex-col text-center w-full mb-1 p-1 mt-2">
+        <div className="flex flex-col text-center w-full">
           <h2 id="sponsors" className="text-center text-sm text-cadetblue-700 tracking-widest font-medium title-font mb-1 p-1 mt-2 bg-gray-200">Featured Sponsors</h2>
         </div>
       </section>

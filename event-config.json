@@ -46,7 +46,7 @@
       "id": "channel3",
       "title": "Channel 3",
       "sessionUrl": "https://www.youtube.com/embed/8o9NVFxVw4c?autoplay=1",
-      "popOutUrl" : "https://youtu.be/r6u6w4zjNzs",
+      "popOutUrl" : "https://youtu.be/8o9NVFxVw4c",
       "discord": {
         "enabled": false,
         "channelId": ""
