@@ -147,7 +147,7 @@
   },
   "onDemand":[
     {
-      "startsAt": "2021-01-28T08:00:00Z",
+      "startsAt": "2021-01-27T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession1",
       "title": "Getting User Adoption: Lessons from Neurology, Psychology, Marketing, and More",
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "startsAt": "2021-01-28T08:00:00Z",
+      "startsAt": "2021-01-27T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession2",
       "title": "Deploy Microsoft Learning Pathways to get the best use out of Microsoft 365",
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "startsAt": "2021-01-28T08:00:00Z",
+      "startsAt": "2021-01-27T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession3",
       "title": "Inspiring the Next Generation: Teaching TechGirlz",
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "startsAt": "2021-01-28T08:00:00Z",
+      "startsAt": "2021-01-27T08:00:00Z",
       "endsAt": "2021-02-20T08:00:00Z",
       "id": "ODSession4",
       "title": "The Maturity Model for Microsoft 365",
