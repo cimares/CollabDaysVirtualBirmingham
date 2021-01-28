@@ -22,8 +22,6 @@ export const LiveSessionPopout: React.FunctionComponent<ILiveSessionPopoutProps>
     }
   }
 
-  const now = new Date();
-  const channelDate = new Date(crntChannel.startsAt);
     return (
       <section className="channel__container_popout container flex justify-center items-center mx-auto mt-4 bg-gray-200 rounded-md">
         <h2 className="text-3xl text-center">Thank you for attending. We'll e-mail out links to the recorded sessions.</h2>
