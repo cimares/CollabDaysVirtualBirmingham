@@ -12,7 +12,7 @@
   "popOutVideo": true,
   "alert": {
     "type": "IMPORTANT",
-    "message": "Please join the conversation in Discord!",
+    "message": "We're having some issues fetching the schedule on first page load of the website. Just wait on the page and it will appear.!",
     "link": "/discord",
     "show": true
   },
