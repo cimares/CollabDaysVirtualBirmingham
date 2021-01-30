@@ -7,14 +7,14 @@
   "discordInvite": "https://discord.gg/8Vk8AHmfpB",
   "discordServerId": "776169869795131402",
   "discordChannelId": "776169870600962080",
-  "refreshData": 5,
+  "refreshData": 60,
   "googleAnalytics":"UA-62275775-3",
   "popOutVideo": true,
   "alert": {
     "type": "IMPORTANT",
     "message": "We're having some issues fetching the schedule on first page load of the website. Just wait on the page and it will appear.!",
     "link": "/discord",
-    "show": true
+    "show": false
   },
 
   "channels": [

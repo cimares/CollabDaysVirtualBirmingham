@@ -33,6 +33,7 @@ export const Home: React.FunctionComponent<IHomeProps> = (props: IHomeProps) => 
 
       <Sponsors />
 
+
       <ChannelOverview channel={crntChannel} />
 
       <Schedule />
