@@ -11,7 +11,7 @@ import { Home } from './pages/Home';
 import { OnDemand} from './pages/OnDemand';
 import { Sponsors } from './pages/Sponsors';
 import { Discord } from './pages/Discord';
-import { useSessionize } from './hooks/useSessionize';
+//import { useSessionize } from './hooks/useSessionize';
 import { Footer } from './components/Footer';
 import { ModalDialog } from './components/ModalDialog';
 
@@ -20,7 +20,7 @@ export interface IMainProps {}
 export const Main: React.FunctionComponent<IMainProps> = (props: IMainProps) => {
     const [ config ] = useRecoilState(ConfigState);
     const history = React.useContext(HistoryContext);
-    useSessionize();
+    //useSessionize();
 
     const [ gInitialized, setGoogleInit ] = React.useState(false);
 
